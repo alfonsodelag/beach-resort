@@ -44,13 +44,13 @@ function App() {
     <>
       <NavBar />
       <Switch>
-        <Route exact path="/" component={Home} />
+        {/* <Route exact path="/" component={Home} />
         <Route exact path="/viviendas/vivienda1" component={Vivienda1} />
         <Route exact path="/services/" component={Services} />
         <Route exact path="/services/:slug" component={SingleService} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/checkout" component={Checkout} />
-        <Route component={Error} />
+        <Route component={Error} /> */}
       </Switch>
     </>
   );
